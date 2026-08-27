@@ -47,7 +47,7 @@ PALETTE = {
 
 # Local image assets (kept next to the script for reliability)
 BASE_DIR = Path(__file__).resolve().parent
-ASSET_DIR = BASE_DIR / "presentation_images"
+ASSET_DIR = BASE_DIR
 PC_HIERARCHY_IMG = ASSET_DIR / "predictive_coding_hierarchy.png"
 COAT_ROOM_NIGHT_IMG = ASSET_DIR / "coat_chair_night_room.png"
 COAT_ROOM_INTRUDER_IMG = ASSET_DIR / "coat_chair_ambiguous.png"
